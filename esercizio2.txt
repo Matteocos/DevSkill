@@ -1,0 +1,10 @@
+let a:string = prompt("inserisci una parola")
+console.log(a)
+let b:string = prompt("inserisci una parola")
+console.log(b)
+
+let ab = a+" "+b
+console.log(ab)
+let ba =b+" "+a
+console.log(ba)
+
