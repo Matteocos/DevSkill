@@ -1,0 +1,14 @@
+let base :number= prompt ("inserisci la base del rettangolo ")
+console.log(base)
+let altezza :number  = prompt ("inserisci l'altezza del rettangolo")
+console.log(altezza)
+
+
+let area :number= (base*altezza)
+console.log(area)
+
+
+let perimetro:number= (base*2)+(altezza*2)
+console.log(perimetro)
+
+
