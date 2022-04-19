@@ -1,0 +1,7 @@
+let input: number = prompt("inserisci un numero");
+if (input %2 == 0){
+    console.log("il numero è pari");
+}
+else{
+    console.log("il numero e dispari");
+}
