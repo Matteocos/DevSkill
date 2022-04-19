@@ -1,0 +1,6 @@
+let numero:number= prompt("inserisci un numero")
+switch (numero%2){
+    case 0 :{console.log("il numero è pari ");break;}
+    default :{console.log("è dispari");break;
+    }
+}
