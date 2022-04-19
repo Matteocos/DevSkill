@@ -1,0 +1,10 @@
+let input: number = prompt ("inserisci l'anno di nascita");
+if (input% 400== 0 ){
+    console.log("L'anno inserito è bisestile");
+}
+if (input % 4 ==0 && input % 100 != 0){
+    console.log("L'anno inserito è bisestile");
+}
+else{
+    console.log( "L'anno inserito non è bisestile");
+}
