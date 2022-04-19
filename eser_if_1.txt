@@ -1,0 +1,11 @@
+let input :number = prompt("inserisci un numero");
+
+if (input <0){
+    console.log("il numero inserito"+" input "+"è negativo.");
+}
+if (input == 0) {
+    console.log("il numero inserito è 0");
+}
+if (input > 0){
+    console.log("il numero inserito"+" input "+"è positivo");
+}
