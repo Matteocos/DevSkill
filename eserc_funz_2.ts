@@ -1,12 +1,16 @@
+
 function pariDispari(num: number): string {
     if (num % 2 == 0) {
-        return console.log("il numero è pari");
+        return "il numero è pari";
     }
-    else {
-        return console.log("il numero è dispari");
-    }
+
+    return "il numero è dispari";
+
 }
 
+function stampaRisultato(risultato: string): void {
+    console.log("il numero è :" + risultato);
 
-let input: number = prompt("inserisci un numero");
-pariDispari(input)
+}
+let input: number = prompt("inserisci un numero") * 1;
+stampaRisultato(pariDispari(input));
