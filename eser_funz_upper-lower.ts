@@ -1,19 +1,28 @@
 function maiuscolo(nome: string, cognome: string): string {
-    let nomecognome: string = (nome + " " + cognome)
-    return console.log(nomecognome.toUpperCase())
+
+    return nomecognome.toUpperCase();
 }
-let nome: string = prompt("inserisci il tuo nome")
-let cognome: string = prompt("inserisci il tuo cognome")
+function stampaRisultato(risultato: string): void {
+    console.log(risultato);
+}
+let nome: string = prompt("inserisci il tuo nome");
+let cognome: string = prompt("inserisci il tuo cognome");
 
-maiuscolo(nome, cognome)
+let nomecognome: string = (nome + " " + cognome);
 
-
-
+stampaRisultato(maiuscolo(nome, cognome));
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 function minuscolo(nome: string, cognome: string): string {
-    let nomecognome: string = (nome + " " + cognome)
-    return console.log(nomecognome.toLowerCase())
-}
-let nome: string = prompt("inserisci il tuo nome")
-let cognome: string = prompt("inserisci il tuo cognome")
 
-minuscolo(nome, cognome)
+    return nomecognome.toLowerCase();
+}
+function stampaRisultato(risultato: string): void {
+    console.log(risultato);
+}
+let nome: string = prompt("inserisci il tuo nome in maiuscolo");
+let cognome: string = prompt("inserisci il tuo cognome in maiuscolo");
+
+let nomecognome: string = (nome + " " + cognome);
+
+stampaRisultato(minuscolo(nome, cognome));
+
